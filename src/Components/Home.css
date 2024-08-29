@@ -1,0 +1,62 @@
+.reci-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 300px;
+}
+.image-card{
+    width: 50%;
+    height: 250px;
+}
+
+.home-hd{
+    color: aliceblue;
+    font-size: 40px;
+    margin: 15px;
+}
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Home-pa{
+    font-size: 20px;
+    margin: 15px;
+    color: aliceblue;
+}
+.log-card{
+    background-color:transparent;
+    width: 300px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 10px white;
+}
+@media screen and (max-width:800px) {
+    .reci-card{
+        width: 200px;
+    }
+    .image-card{
+        width: 200px;
+        height: 200px;
+    }
+    .home-hd{
+        color: aliceblue;
+        font-size: 30px;
+        margin: 6px;
+        font-weight: bold;
+        padding: 8px;
+        
+    }
+    .Home-pa{
+        font-size: 15px;
+        margin: 6px;
+    }
+
+
+
+}
