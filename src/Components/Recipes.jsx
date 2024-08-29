@@ -9,7 +9,7 @@ const Recipes = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/recipe/recipes")
+      .get("https://mern-recipe-api-rzyk.onrender.com/recipe/recipes")
       .then((recipes) => {
         setRecipe(recipes.data);
       })

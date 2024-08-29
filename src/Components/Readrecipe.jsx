@@ -9,7 +9,7 @@ function Readrecipe() {
     const [recipe,setRecipe]=useState([]);
 
     useEffect(()=>{
-        axios.get('http://localhost:3001/recipe/recipe-by-id/'+id)
+        axios.get('https://mern-recipe-api-rzyk.onrender.com/recipe/recipe-by-id/'+id)
         .then(result=>{
             setRecipe(result.data)
         }).catch(err=>console.log(err))
